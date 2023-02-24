@@ -1,0 +1,5 @@
+build*
+bin*
+
+# downloaded or built dependicies
+libs/fmt-*
