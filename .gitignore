@@ -1,5 +1,8 @@
 build*
 bin*
+bin-release*
 
 # downloaded or built dependicies
 libs/fmt-*
+libs/openssl-*
+libs/protobuf-*

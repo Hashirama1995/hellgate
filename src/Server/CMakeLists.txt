@@ -12,6 +12,8 @@ add_executable(${SERVER_NAME}
 
 set(SERVER_LIBRARIES
     fmt::fmt-header-only
+    protobuf::libprotobuf
+    gRPC::grpc++
 )
 if(WIN32)
     set(SERVER_LIBRARIES ${SERVER_LIBRARIES}
